@@ -4,8 +4,11 @@ A hands-on DevOps Observability project using Docker, Docker Compose v2, Prometh
 
 This project helps you understand how infrastructure and applications are monitored in production environments.
 
-![Grafana Dashboard](assets/images/grafana-dashboard.png)
+![Grafana Dashboard](assets/grafana-dashboard.png)
 
+for local to EC2 image copy:-
+scp -i observability-key.pem "/mnt/c/Users/prash/OneDrive/Pictures/Screenshots/Screenshot 2026-01-11 111121.png" ubuntu@108.130.41.229:/home/
+ubuntu/observability-for-devops/
 
                  +------------------+
                  |   Grafana UI     |
