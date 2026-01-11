@@ -75,7 +75,7 @@ docker compose version
 
 🧩 Setup & Installation
 1️⃣ Clone the repository
-git clone https://github.com/LondheShubham153/observability-for-devops.git
+git clone https://github.com/AnkitGaurkar/observability-for-devops.git
 cd observability-for-devops
 
 2️⃣ Add user to Docker group (recommended)
