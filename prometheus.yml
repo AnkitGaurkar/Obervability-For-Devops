@@ -27,12 +27,21 @@ scrape_configs:
 
     static_configs:
       - targets: ["localhost:9090"]
+       # The label name is added as a label `label_name=<label_value>` to any timeseries scraped from this config.
+        labels:
+          app: "prometheus"
 
+  - job_name: "cAdvisor-docker"
 
-  - job_name: "Docker"
     static_configs:
       - targets: ["cadvisor:8080"]
+        labels:
+          app: "docker"
 
-  - job_name: "NodeExporter"
+  - job_name: "Node-Exporter"
+
     static_configs:
       - targets: ["node-exporter:9100"]
+      
+        labels:
+          app: "node"
